@@ -1,0 +1,47 @@
+/* Feuille de style pour la création du site sur la Blockchain et les crypto */
+/* Version du 16/01/2022*/
+/* Riaz EMAMUCK */
+
+/* Importation d'une police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+#myFormulaire{
+    position: relative;
+    top: -1rem;
+    left: 5%;
+    width: 90%;
+    padding: 5px;
+    height: 38rem;
+    background-color: cadetblue;
+    font-size: 1em;
+    color: black;
+    z-index: unset;
+    border-radius: 5px;
+    border-width: 3px;
+    border-left-style: outset;
+    border-left-color: lightgray;
+    border-top-color: lightgray;
+    border-right-color: darkgrey;
+    border-bottom-color: darkgrey; 
+    margin-top: 10vh;
+}
+
+form{
+   
+    background-color: oldlace;
+    padding: 5px;
+    margin-top: 5vh;
+   
+}
+
+
+@media screen and (max-width: 650px){
+    #formulary{
+        width: 90%;
+    }
+    
+    
+}
